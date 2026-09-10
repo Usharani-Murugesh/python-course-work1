@@ -46,8 +46,8 @@ and add new features without changing the original class.
 types of inheritance
 
 1. single inheritance
-2. multiple inheritance
-3. multilevel inheritance
+2. multilevel inheritance
+3. multiple inheritance
 4. hierarchical inheritance
 5. hybrid inheritance
 
@@ -138,7 +138,7 @@ class Student:
 self points to the **current object**.
 
 It is used to access the current object's **attributes and methods**.
-
+ 
 Example:
 
 class Student:
@@ -149,7 +149,6 @@ s1 = Student()
 s1.display()
 Here, when s1.display() is called, **self points to s1, the current object.
 Self is a reference that points to the current object.
-
 
 ####three types of methods
 
@@ -167,3 +166,5 @@ static method does not depend on the class or object.
 it does not use self or cls.
 it is mainly used as a helper function inside the class.
 it is defined using @staticmethod.
+
+: => we use colon for indentation and branching
